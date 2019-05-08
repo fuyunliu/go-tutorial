@@ -2,9 +2,6 @@ package main
 
 import "fmt"
 
-var c, python, java bool
-var i, j = 1, 2
-
 func add(x int, y int) int {
 	return x + y
 }
@@ -24,6 +21,4 @@ func main() {
 	a, b := swap("world", "hello")
 	fmt.Println(a, b)
 	fmt.Println(split(17))
-	var i = 2
-	fmt.Println(i, c, python, java)
 }
